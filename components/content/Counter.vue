@@ -7,12 +7,12 @@ const incrementCount = () => {
 </script>
 
 <template>
-    <div class="counter">
-        <p class="current-count">
-          Current Count: <strong>{{ currentCount }}</strong>
-        </p>
-        <button @click="incrementCount">Add 1</button>
-      </div>
+  <div class="counter">
+    <p class="current-count">
+      Current Count: <strong>{{ currentCount }}</strong>
+    </p>
+    <button @click="incrementCount">Add 1</button>
+  </div>
 </template>
 
 <style>
